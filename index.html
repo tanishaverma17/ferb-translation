@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ferb</title> 
+        <style> 
+            #text{ 
+                width: 80%; 
+                display: block; 
+                margin: 1rem; 
+                height: 10vh; 
+                padding: 1rem; 
+            } 
+            #output{
+                border: 2px solid black; 
+                height: 10vh; width: 80%; 
+                margin: 1rem; padding: 1rem; 
+            } 
+            #output-txt{ 
+                font-size: large; 
+            } 
+        </style> 
+    </head> 
+    <body> 
+        <!-- this first lecture javascript was CLI but here we are doing GUI that we usually use --> 
+        <h1>Ferb Translation</h1> 
+        <textarea placeholder="Put your sentence in English and we will convert it into Ferb Translation " id="text"></textarea>
+        <button id="btn">Translate</button> 
+        <div id="output-txt">Output will come here 👇</div> 
+        <div id="output"></div> 
+        <!-- e should keep javascript tag at last so that it is read after the whole body is read --> 
+        <script src="script.js" text="text/javascript"></script> 
+    </body> 
+</html>
